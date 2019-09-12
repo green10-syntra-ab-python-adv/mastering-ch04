@@ -12,9 +12,10 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+# HV 20190410 the following was needed to find the modules in examples package
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'+'/examples'))
+sys.path.insert(0, os.path.abspath('..'))
 
 
 # -- Project information -----------------------------------------------------
