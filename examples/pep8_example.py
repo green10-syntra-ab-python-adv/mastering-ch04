@@ -80,4 +80,4 @@ def munge(left, right):
     new_left = (left[0], right[1])
     new_right = (right[0], left[1])
 
-    return lew_left, new_right
+    return new_left, new_right
